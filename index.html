@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bivan Jena — Full Stack Developer. B.Tech CSE student at Silicon Institute of Technology. Building modern web applications with React, Next.js, FastAPI & PostgreSQL.">
+  <meta name="keywords" content="Bivan Jena, Full Stack Developer, React, Next.js, FastAPI, Portfolio, Computer Science Engineer">
+  <meta name="author" content="Bivan Jena">
+  <title>Bivan Jena — Full Stack Developer</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- AOS Animation Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ==================== NAVBAR ==================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#home" class="nav-logo">Bivan<span>.</span></a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="assets/resume/Bivan_Jena_Resume.pdf" class="nav-link" target="_blank">Resume</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav-overlay" id="navOverlay"></div>
+  </nav>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+        <p class="hero-greeting">👋 Hello, I'm</p>
+        <h1 class="hero-name">
+          <span class="gradient-text">Bivan Jena</span>
+        </h1>
+        <h2 class="hero-title-main">FULL STACK DEVELOPER</h2>
+        <h3 class="hero-title">
+          <span id="typed-output"></span>
+        </h3>
+        <p class="hero-description">
+          Building modern web applications using React, Next.js, FastAPI, PostgreSQL and solving real-world problems through technology.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-rocket"></i> View Projects
+          </a>
+          <a href="assets/resume/Bivan_Jena_Resume.pdf" class="btn btn-secondary" target="_blank">
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/Bivan1234" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/bivan-jena-810a96290?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.instagram.com/mr__bivan__07?igsh=MTRhanJlcm93MHRjdA==" target="_blank" rel="noopener" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-image" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+        <div class="hero-image-wrapper">
+           <img src="assets/images/bivan.jpg.JPG" alt="Bivan Jena">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT SECTION ==================== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>Get to know more about my journey, education, and passion for technology</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text" data-aos="fade-right" data-aos-delay="100">
+          <h3>A Passionate Developer From India 🇮🇳</h3>
+          <p>
+            I am <strong>Bivan Jena</strong>, a Computer Science and Engineering student at
+            <strong>Silicon Institute of Technology, Sambalpur</strong> with a CGPA of <strong>8.55</strong>.
+          </p>
+          <p>
+            I am passionate about <strong>Full Stack Development</strong>, Software Engineering,
+            Backend Systems and Web Technologies.
+          </p>
+          <p>
+            I have internship experience in Full Stack Development, Frontend Development
+            and Python Data Analysis.
+          </p>
+          <p>
+            My goal is to build scalable software solutions that solve real-world problems
+            while continuously improving my technical expertise.
+          </p>
+        </div>
+
+        <div class="education-card" data-aos="fade-left" data-aos-delay="200">
+          <div class="education-card-inner">
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Bachelor of Technology</h3>
+            <h4>Computer Science &amp; Engineering</h4>
+            <div class="education-divider"></div>
+            <p class="education-institute">
+              <i class="fas fa-university"></i>
+              Silicon Institute of Technology
+            </p>
+            <p class="education-location">
+              <i class="fas fa-map-marker-alt"></i>
+              Sambalpur, Odisha
+            </p>
+            <div class="education-meta">
+              <span class="education-year">
+                <i class="fas fa-calendar-alt"></i> 2023 - 2027
+              </span>
+              <span class="education-cgpa">
+                <i class="fas fa-star"></i> CGPA: 8.55
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Statistics -->
+      <div class="about-stats" data-aos="fade-up" data-aos-delay="300">
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-briefcase"></i></div>
+          <h4 data-target="3" data-suffix="+">0</h4>
+          <p>Internships</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-code"></i></div>
+          <h4 data-target="10" data-suffix="+">0</h4>
+          <p>Projects</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+          <h4 data-target="8.55" data-suffix="" data-decimal="true">0</h4>
+          <p>CGPA</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-certificate"></i></div>
+          <h4 data-target="2" data-suffix="">0</h4>
+          <p>NPTEL Certifications</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EXPERIENCE SECTION ==================== -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Experience</h2>
+        <p>Professional internships and hands-on industry experience</p>
+      </div>
+
+      <div class="experience-timeline">
+        <!-- Experience 1 -->
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Full Stack Web Development Intern</h3>
+                <h4><i class="fas fa-building"></i> Coding Samurai</h4>
+              </div>
+              <span class="timeline-date">
+                <i class="fas fa-calendar-alt"></i> May 2026 - Present
+              </span>
+            </div>
+            <ul class="timeline-list">
+              <li><i class="fas fa-check-circle"></i> Building complete web applications</li>
+              <li><i class="fas fa-check-circle"></i> REST API Integration</li>
+              <li><i class="fas fa-check-circle"></i> Database Connectivity</li>
+              <li><i class="fas fa-check-circle"></i> Git &amp; GitHub Version Control</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">PostgreSQL</span>
+              <span class="project-tag">Git</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Frontend Web Development Intern</h3>
+                <h4><i class="fas fa-building"></i> Edunet Foundation (AICTE + IBM SkillsBuild)</h4>
+              </div>
+              <span class="timeline-date">
+                <i class="fas fa-calendar-alt"></i> Aug 2025 - Sept 2025
+              </span>
+            </div>
+            <ul class="timeline-list">
+              <li><i class="fas fa-check-circle"></i> Developed responsive web applications</li>
+              <li><i class="fas fa-check-circle"></i> UI/UX Implementation</li>
+              <li><i class="fas fa-check-circle"></i> DOM Manipulation</li>
+              <li><i class="fas fa-check-circle"></i> Event Handling</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 3 -->
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Python Intern</h3>
+                <h4><i class="fas fa-building"></i> EISystems Services</h4>
+              </div>
+              <span class="timeline-date">
+                <i class="fas fa-calendar-alt"></i> Sept 2024 - Oct 2024
+              </span>
+            </div>
+            <ul class="timeline-list">
+              <li><i class="fas fa-check-circle"></i> Weather Dataset Analysis</li>
+              <li><i class="fas fa-check-circle"></i> Data Visualization</li>
+              <li><i class="fas fa-check-circle"></i> Pandas &amp; NumPy</li>
+              <li><i class="fas fa-check-circle"></i> Matplotlib</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Pandas</span>
+              <span class="project-tag">Matplotlib</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS SECTION ==================== -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>My Skills</h2>
+        <p>Technologies and tools I use to bring ideas to life</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Languages -->
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+          <div class="skill-category-header">
+            <i class="fas fa-terminal"></i>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Java</span><span>90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Python</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>JavaScript</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>TypeScript</span><span>75%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>SQL</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+        </div>
+
+        <!-- Frontend -->
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+          <div class="skill-category-header">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Frontend</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>HTML5</span><span>95%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>CSS3</span><span>90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>React 18</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Next.js 14</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Tailwind CSS</span><span>90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+          <div class="skill-category-header">
+            <i class="fas fa-server"></i>
+            <h3>Backend</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>FastAPI</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>REST APIs</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>PostgreSQL</span><span>75%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Docker</span><span>70%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+          <div class="skill-category-header">
+            <i class="fas fa-tools"></i>
+            <h3>Tools</h3>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Git</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>GitHub</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>VS Code</span><span>90%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Postman</span><span>80%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS SECTION ==================== -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>My Projects</h2>
+        <p>A collection of work that showcases my skills and creativity</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: AquaShield -->
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-image">
+            <img src="assets/images/aquashield.png" alt="AquaShield – AI-Driven Water Quality System">
+            <div class="project-overlay">
+              <a href="#" class="btn btn-primary" target="_blank"><i class="fas fa-external-link-alt"></i> View Project</a>
+              <a href="#" class="btn btn-secondary" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>AquaShield – AI-Driven Water Quality &amp; Disease Prevention</h3>
+            <p>AI-powered platform for monitoring water quality and predicting disease risks using real-time sensor data and machine learning models.</p>
+            <div class="project-tags-group">
+              <div class="project-tags-row">
+                <span class="project-tag-label">Frontend:</span>
+                <span class="project-tag">Next.js 14</span>
+                <span class="project-tag">React 18</span>
+                <span class="project-tag">TypeScript</span>
+                <span class="project-tag">Tailwind CSS</span>
+              </div>
+              <div class="project-tags-row">
+                <span class="project-tag-label">Backend:</span>
+                <span class="project-tag">FastAPI</span>
+                <span class="project-tag">PostgreSQL</span>
+                <span class="project-tag">JWT</span>
+                <span class="project-tag">Docker</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Travel Explorer -->
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-image">
+            <img src="assets/images/travel-explorer.png" alt="Travel Explorer Web Application">
+            <div class="project-overlay">
+              <a href="#" class="btn btn-primary" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+              <a href="#" class="btn btn-secondary" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Travel Explorer Web Application</h3>
+            <p>Responsive travel destination explorer with dynamic content rendering, smooth navigation, and interactive destination cards.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Weather Data Analysis -->
+        <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="project-image">
+            <img src="assets/images/weather-analysis.png" alt="Weather Data Analysis and Visualization">
+            <div class="project-overlay">
+              <a href="#" class="btn btn-primary" target="_blank"><i class="fas fa-external-link-alt"></i> View Project</a>
+              <a href="#" class="btn btn-secondary" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Weather Data Analysis &amp; Visualization</h3>
+            <p>Analyzed real-world weather datasets and generated visual insights using Python with comprehensive statistical analysis and charts.</p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Pandas</span>
+              <span class="project-tag">NumPy</span>
+              <span class="project-tag">Matplotlib</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ACHIEVEMENTS SECTION ==================== -->
+  <section id="achievements">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Achievements</h2>
+        <p>Milestones and certifications that mark my growth</p>
+      </div>
+
+      <div class="achievements-grid">
+        <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="achievement-icon"><i class="fas fa-trophy"></i></div>
+          <h3>2nd Runner-Up – Hacknobuzz Hackathon</h3>
+          <p>Secured 3rd place in a competitive hackathon, demonstrating problem-solving skills and teamwork under pressure.</p>
+        </div>
+        <div class="achievement-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="achievement-icon"><i class="fas fa-medal"></i></div>
+          <h3>NPTEL Programming in Java</h3>
+          <p>Certified by IIT Kharagpur through the NPTEL program, demonstrating proficiency in Java programming.</p>
+        </div>
+        <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="achievement-icon"><i class="fas fa-medal"></i></div>
+          <h3>NPTEL Elite Certification — DBMS</h3>
+          <p>Earned Elite certification from IIT Kharagpur in Database Management Systems through NPTEL.</p>
+        </div>
+        <div class="achievement-card" data-aos="fade-up" data-aos-delay="250">
+          <div class="achievement-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Full Stack Development Internship</h3>
+          <p>Completed a hands-on internship at Coding Samurai, building real-world full stack applications.</p>
+        </div>
+        <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="achievement-icon"><i class="fas fa-code"></i></div>
+          <h3>Frontend Development Internship</h3>
+          <p>Completed internship at Edunet Foundation in collaboration with AICTE and IBM SkillsBuild.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES SECTION ==================== -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>What I can do for you and your business</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+          <h3>Full Stack Development</h3>
+          <p>Building responsive and scalable web applications using modern frontend and backend technologies including React, Next.js, FastAPI, PostgreSQL, and REST APIs.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon"><i class="fas fa-brain"></i></div>
+          <h3>Problem Solving</h3>
+          <p>Applying Data Structures, Algorithms, DBMS concepts, and logical thinking to solve real-world challenges and develop efficient software solutions.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon"><i class="fas fa-photo-film"></i></div>
+          <h3>Photo &amp; Video Editing</h3>
+          <p>Creating visually engaging content through photo enhancement, color grading, video editing, motion effects, reels, cinematic edits, and social media content optimization.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT SECTION ==================== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Get In Touch</h2>
+        <p>Have a project in mind or want to collaborate? Let's talk!</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+          <h3>Let's Build Something Great Together</h3>
+          <p>Feel free to reach out through the form or any of the channels below. I'm always open to new opportunities and interesting projects.</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="fas fa-user"></i></div>
+              <div class="contact-item-text">
+                <h4>Name</h4>
+                <p>Bivan Jena</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-item-text">
+                <h4>Email</h4>
+                <p>bivanjena9178@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-item-text">
+                <h4>Phone</h4>
+                <p>+91 9668315403</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="contact-item-text">
+                <h4>Location</h4>
+                <p>Odisha, India</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper" data-aos="fade-left" data-aos-delay="200">
+          <form id="contactForm" novalidate>
+            <input type="hidden" name="access_key" value="4b5ebe1f-7410-43b2-bb46-58ad5cea9063">
+            <input type="hidden" name="subject" value="New Portfolio Contact Message">
+            <input type="hidden" name="from_name" value="Portfolio Website">
+            <input type="checkbox" name="botcheck" style="display: none;">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name-input">Your Name</label>
+                <input type="text" id="name-input" name="name" placeholder="John Doe" required>
+                <p class="form-error" id="nameError">Please enter your name</p>
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                <p class="form-error" id="emailError">Please enter a valid email</p>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+              <p class="form-error" id="subjectError">Please enter a subject</p>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+              <p class="form-error" id="messageError">Please enter your message</p>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Bivan<span>.</span></div>
+        <div class="footer-social">
+          <a href="https://github.com/Bivan1234" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/bivan-jena-810a96290?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.instagram.com/mr__bivan__07?igsh=MTRhanJlcm93MHRjdA==" target="_blank" rel="noopener" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <hr class="footer-divider">
+      <div class="footer-bottom">
+        <p>&copy; 2026 <a href="#home">Bivan Jena</a>. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== BACK TO TOP ==================== -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- ==================== TOAST NOTIFICATION ==================== -->
+  <div class="toast" id="toast">
+    <i class="fas fa-check-circle"></i>
+    <span>Message sent successfully!</span>
+  </div>
+
+  <!-- ==================== SCRIPTS ==================== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
